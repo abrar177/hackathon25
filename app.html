@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>app</title>
+  <link rel="stylesheet" href="./app.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FindMe</title>
+  <style>
+  </style>
+</head>
+<body>
+  <div id="logo">
+
+    <img src="https://i.ibb.co/n2vntpR/Screenshot-2025-02-08-at-9-49-10-PM-removebg-preview.png" width="90%" height="100%" alt="Image">
+  </div>
+  <div id="nav-toggle">&#9776;</div> <!-- Menu icon -->
+  <div id="nav">
+    <span><a href="home.html">Home</a></span>
+    <span><a href="features.html">Features</a></span>
+    <span><a href="app.html">App</a></span>
+  </div>
+  <div id="calendar">
+    <div id="main_">
+      <img src="https://i.ibb.co/B2JyBJ35/Screenshot-2025-02-09-at-12-57-49-AM.png" width="100%" height="auto" alt="Image">
+    </div>
+    <div class="centered">Work in progress!</div>
+  </div>
+
+
+</body>
+  <script>
+    // JavaScript for nav-toggle
+window.onload = function () {
+  document.getElementById("nav-toggle").onclick = function () {
+    document.getElementById("nav").classList.toggle("active");
+    if (document.getElementById("nav").classList.contains("active")) {
+      document.body.style.overflow = "hidden"; // Disable scrolling when menu is open
+    } else {
+      document.body.style.overflow = "auto"; // Enable scrolling when menu is closed
+    }
+  };
+};
+
+
+  </script>
+</html>
+<!-- partial -->
+
+</body>
+</html>

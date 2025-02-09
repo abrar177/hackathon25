@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>features</title>
+  <link rel="stylesheet" href="./features.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FindMe</title>
+  <style>
+  </style>
+</head>
+<body>
+  <div id="logo">
+
+    <img src="https://i.ibb.co/n2vntpR/Screenshot-2025-02-08-at-9-49-10-PM-removebg-preview.png" width="90%" height="100%" alt="Image">
+  </div>
+  <div id="nav-toggle">&#9776;</div> <!-- Menu icon -->
+  <div id="nav">
+    <span><a href="home.html">Home</a></span>
+    <span><a href="features.html">Features</a></span>
+    <span><a href="app.html">App</a></span>
+  </div>
+
+  <div id="calendar">
+    <div id="main_">
+      <img src="https://i.ibb.co/35PNnmDC/Screenshot-2025-02-09-at-12-20-05-AM.png" width="100%" height="auto" alt="Image">
+    </div>
+    <div class="centered">How it works!</div>
+  </div>
+  <div class="body_info">Take a glimpse of its usage! </div>
+
+  <div class="info-box-container">
+    <!-- Info Box 1 -->
+    <div class="info-box">
+      <img src="https://i.ibb.co/7t51JH4G/Screenshot-2025-02-09-at-12-24-21-AM.png" alt="Example Image">
+      <button class="dropdown-btn">Rotate</button>
+      <div class="dropdown-content">
+
+      </div>
+    </div>
+
+    <!-- Info Box 2 -->
+    <div class="info-box">
+      <img src="https://i.ibb.co/bjdNqj2c/Screenshot-2025-02-09-at-12-24-33-AM.png" alt="Example Image">
+      <button class="dropdown-btn">Look</button>
+      <div class="dropdown-content">
+
+      </div>
+    </div>
+
+    <!-- Info Box 3 -->
+    <div class="info-box">
+      <img src="https://i.ibb.co/b5qC8Kzs/Screenshot-2025-02-09-at-12-24-40-AM.png" alt="Example Image">
+      <button class="dropdown-btn">Follow</button>
+      <div class="dropdown-content">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="new-info-box-container">
+  <!-- Info Box 4 -->
+  <div class="new-info-box">
+    <img src="https://i.ibb.co/2w9gJW4/Screenshot-2025-02-09-at-12-24-46-AM.png" alt="Example Image">
+    <button class="new-dropdown-btn">Adjust</button>
+    <div class="new-dropdown-content">
+
+    </div>
+  </div>
+
+  <!-- Info Box 5 -->
+  <div class="new-info-box">
+    <img src="https://i.ibb.co/rfqb3Cp8/Screenshot-2025-02-09-at-12-25-11-AM.png">
+    <button class="new-dropdown-btn">Arrive</button>
+    <div class="new-dropdown-content">
+
+    </div>
+  </div>
+
+</body>
+  <script>
+    // JavaScript for nav-toggle
+window.onload = function () {
+  document.getElementById("nav-toggle").onclick = function () {
+    document.getElementById("nav").classList.toggle("active");
+    if (document.getElementById("nav").classList.contains("active")) {
+      document.body.style.overflow = "hidden"; // Disable scrolling when menu is open
+    } else {
+      document.body.style.overflow = "auto"; // Enable scrolling when menu is closed
+    }
+  };
+};
+
+
+  </script>
+</html>
+<!-- partial -->
+
+</body>
+</html>
